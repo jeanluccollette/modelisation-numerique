@@ -53,3 +53,13 @@ Les différentes étapes ont été illustrées avec une fonction de transfert $H
 
 Dans des environnements tels que Matlab ou Python (avec le package **control**), il existe des méthodes (**c2d()**) réalisant directement ces étapes avec des fonctions de transfert $H(p)$ dont les coefficients sont exprimés sous forme numérique. Elles sont bien évidemment à privilégier dans un contexte classique d'asservissement où les paramètres des modèles sont déjà sous forme numérique via une identification du système. 
 
+## Le notebook
+
+La version disponible sur ce dépôt :
+
+[c2d.ipynb](c2d.ipynb)
+
+Une version est par ailleurs disponible sur Google Colaboratory :
+
+https://colab.research.google.com/drive/1_9f9qmY52ON8NSBj2excOhRhbP8cj4qp?usp=drive_link
+
