@@ -27,4 +27,6 @@ H = K/(p*(1+tau*p))
 r = sp.inverse_laplace_transform(H/p,p,t)
 ```
 
+$$r(t)=K \\left(t \\theta\\left(t\\right) - \\tau \\theta\\left(t\\right) + \\tau e^{- \\frac{t}{\\tau}} \\theta\\left(t\\right)\\right)$$
+
 
