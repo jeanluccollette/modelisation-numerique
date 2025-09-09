@@ -13,4 +13,5 @@ Le convertisseur analogique numérique (CA/N) délivre un signal numérique $s_N
 ## Exemple choisi
 
 Les étapes vont être détaillées avec la fonction de transfert ci-dessous.
+
 $$H(p)=\\frac{K}{p \\left(p \\tau + 1\\right)}$$
