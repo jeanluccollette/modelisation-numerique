@@ -29,4 +29,8 @@ r = sp.inverse_laplace_transform(H/p,p,t)
 
 $$r(t)=K \\left(t \\theta\\left(t\\right) - \\tau \\theta\\left(t\\right) + \\tau e^{- \\frac{t}{\\tau}} \\theta\\left(t\\right)\\right)$$
 
+## Echantillonnage de la réponse indicielle
+
+$$r_N(n) = K \\left(T_{e} n \\theta\\left(T_{e} n\\right) - \\tau \\theta\\left(T_{e} n\\right) + \\tau e^{- \\frac{T_{e} n}{\\tau}} \\theta\\left(T_{e} n\\right)\\right)$$
+
 
