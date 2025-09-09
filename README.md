@@ -35,6 +35,12 @@ $$r_N(n) = K \\left(T_{e} n \\theta\\left(T_{e} n\\right) - \\tau \\theta\\left(
 
 ## Transformée en z de cette réponse
 
+Pour cette étape, il faut faire appel à une table des transformées en z usuelles.
+
 $$R_N(z)=\\frac{K T_{e} z^{-1}}{\\left(1 - z^{-1}\\right)^{2}} + \\frac{K \\tau}{- z^{-1} e^{- \\frac{T_{e}}{\\tau}} + 1} - \\frac{K \\tau}{1 - z^{-1}}$$
+
+## Fonction de transfert $H_N(z)$
+
+$$H_N(z) = (1-z^{-1}R_N(z)= \\left(1 - z^{-1}\\right) \\left(\\frac{K T_{e} z^{-1}}{\\left(1 - z^{-1}\\right)^{2}} + \\frac{K \\tau}{- z^{-1} e^{- \\frac{T_{e}}{\\tau}} + 1} - \\frac{K \\tau}{1 - z^{-1}}\\right)$$
 
 
