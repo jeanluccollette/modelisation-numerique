@@ -16,9 +16,9 @@ Les étapes vont être détaillées avec la fonction de transfert ci-dessous.
 
 $$H(p)=\\frac{K}{p \\left(p \\tau + 1\\right)}$$
 
-## Réponse incicielle associée à $H(p)$
+## Réponse indicielle associée à $H(p)$
 
-Via le package sympy, on accède à la réponse indicielle $r(t)$.
+Via le package **sympy**, on accède à la réponse indicielle $r(t)$.
 
 ```python
 import sympy as sp
@@ -46,4 +46,10 @@ $$H_N(z) = (1-z^{-1})R_N(z)= \\left(1 - z^{-1}\\right) \\left(\\frac{K T_{e} z^{
 ## Expression finale de $H_N(z)$ sous forme de fraction rationnelle en $z^{-1}$
 
 $$H_N(z) = - \\frac{K z^{-1} \\left(- T_{e} z^{-1} + T_{e} e^{\\frac{T_{e}}{\\tau}} + \\tau z^{-1} e^{\\frac{T_{e}}{\\tau}} - \\tau z^{-1} - \\tau e^{\\frac{T_{e}}{\\tau}} + \\tau\\right)}{\\left(- z^{-1} + e^{\\frac{T_{e}}{\\tau}}\\right) \\left(z^{-1} - 1\\right)}$$
+
+## Conclusion
+
+Les différentes étapes ont été illustrées avec une fonction de transfert $H(p)$ dont les coefficients sont exprimés sous forme littérale.
+
+Dans des environnements tels que Matlab ou Python (avec le package **control**), il existe des méthodes (**c2d()**) réalisant directement ces étapes avec des fonctions de transfert $H(p)$ dont les coefficients sont exprimés sous forme numérique. Elles sont bien évidemment à privilégier dans un contexte classique d'asservissement où les paramètres des modèles sont déjà sous forme numérique via une identification du système. 
 
