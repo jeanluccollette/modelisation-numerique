@@ -33,4 +33,8 @@ $$r(t)=K \\left(t \\theta\\left(t\\right) - \\tau \\theta\\left(t\\right) + \\ta
 
 $$r_N(n) = K \\left(T_{e} n \\theta\\left(T_{e} n\\right) - \\tau \\theta\\left(T_{e} n\\right) + \\tau e^{- \\frac{T_{e} n}{\\tau}} \\theta\\left(T_{e} n\\right)\\right)$$
 
+## Transformée en z de cette réponse
+
+$$R_N(z)=\\frac{K T_{e} z^{-1}}{\\left(1 - z^{-1}\\right)^{2}} + \\frac{K \\tau}{- z^{-1} e^{- \\frac{T_{e}}{\\tau}} + 1} - \\frac{K \\tau}{1 - z^{-1}}$$
+
 
