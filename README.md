@@ -15,3 +15,12 @@ Le convertisseur analogique numérique (CA/N) délivre un signal numérique $s_N
 Les étapes vont être détaillées avec la fonction de transfert ci-dessous.
 
 $$H(p)=\\frac{K}{p \\left(p \\tau + 1\\right)}$$
+
+## Réponse incicielle associée à $H(p)$
+
+```python
+import sympy as sp
+p, zm1, K, tau, t, n, T_e=sp.symbols('p, z^{-1}, K, tau, t, n, T_e')
+H = K/(p*(1+tau*p))
+r = sp.inverse_laplace_transform(H/p,p,t)
+```
